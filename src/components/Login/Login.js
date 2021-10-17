@@ -5,7 +5,7 @@ import './Login.css'
 
 const Login = () => {
     // use firebase
-    const {user, signInWithGoogle} = useFirebase();
+    const {signInWithGoogle} = useFirebase();
     return (
         <div  className="login-form">
             <div>
